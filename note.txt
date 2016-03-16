@@ -1,0 +1,36 @@
+﻿GIT BASH
+-git init ฝังFolder .git ไว้ที่Project
+-git config --list เลือกสิ่งที่จะ config
+-git config --global user.name "ชื่อuser"
+-git config --global user.email "อีเมลuser"
+-mkdir ชื่อFolder =คำสั่งสร้างFolder
+-touch ชื่อFile =คำสั่งสร้างFile
+-git status =ดูstatusปจบ
+-git add ชื่อไฟล์ =add เข้า stage
+-git commit ชื่อไฟล์ =commit เข้า Repo
+-git commit -m "massege" =commit พร้อม Massege
+-git commit -a -m "massege" =addและcommit พร้อม Massege
+-git reset 
+-git reset --soft เลขไอดี =ยังเก็บversionหลังจากที่resetไว้ที่stage
+-git reset --hard เลขไอดี =ไม่เก็บversionหลังจากที่resetไว้ แต่ยังมีอยู่ใน history
+-กรณี remoteแล้วจะเรียกไฟล์กลับมาใหม่ ให้ใช้คำสั่ง 
+	-git reset -- ชื่อไฟล์ หรือ git reset HEAD ชื่อไฟล์
+	-git checkout -- ชื่อไฟล์
+-git diff =เช็คสิ่งที่แตกต่างใน working directory
+-git diff --cached,--staged =เช็คสิ่งที่แตกต่างใน stage directory
+-git rm ชื่อไฟล์ =ลบไฟล์
+-git rm ชื่อไฟล์ --cached =ลบไฟล์ถาวรไม่เก็บในhistory
+-git mv ชื่อไฟล์เดิม ชื่อไฟล์ใหม่ =เปลี่ยนชื่อไฟล์
+-git help =ดูรายละเอียดของcommand
+-git log = ดู log file
+-git log --oneline หรือ git reflog =ดู file id
+-cat ชื่อไฟล์ =ดูข้อมูลในไฟล์
+-git branch =ดูbranch ปจบ
+-git branch ชื่อbranch =สร้างbranch
+-git checkout ชื่อbranch =Switch branch
+-git branch -b ชื่อbranch =สร้างและSwitch branch
+-gitk =เปิด history ใน GIT GUI
+
+
+
+
